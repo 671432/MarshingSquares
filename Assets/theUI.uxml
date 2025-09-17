@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:Slider label="isoValue" value="0.5" high-value="1" name="slider1" style="position: absolute; top: 101px; left: 6px; width: 286px; flex-direction: row; align-items: center; justify-content: space-between;" />
+        <ui:Slider label="Zoom Image" value="256" high-value="256" name="slider2" style="position: absolute; top: 159px; left: 6px; width: 286px; flex-direction: row; align-items: center; justify-content: space-between;" />
+        <ui:Slider label="3D Z-axis" value="-2.5" high-value="2.5" name="slider3" low-value="-2.5" fill="false" style="position: absolute; top: 212px; left: 6px; width: 286px; flex-direction: row; align-items: center; justify-content: space-between;" />
+        <ui:Toggle label="                  A Toggle →" name="toggle1" language-direction="Inherit" toggle-on-label-click="true" style="position: absolute; top: 4px; left: 81px; width: 178px; overflow: hidden; transform-origin: center; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+        <ui:Button text="Smooth Circle" display-tooltip-when-elided="true" name="button2" data-source="project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=4413694071827464959&amp;guid=3dda5d08aec430c438934fbbaecd3d39&amp;type=3#default" style="position: absolute; top: 46px; left: 0;" />
+        <ui:Button text="Circle" display-tooltip-when-elided="true" name="button3" data-source="project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=4413694071827464959&amp;guid=3dda5d08aec430c438934fbbaecd3d39&amp;type=3#default" style="position: absolute; top: 46px; left: 133px;" />
+        <ui:Button text="Marching Squares" display-tooltip-when-elided="true" name="button1" data-source="project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=4413694071827464959&amp;guid=3dda5d08aec430c438934fbbaecd3d39&amp;type=3#default" style="position: absolute; top: 0; left: 0;" />
+    </ui:VisualElement>
+</ui:UXML>
